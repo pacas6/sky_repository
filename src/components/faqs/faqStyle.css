@@ -1,0 +1,27 @@
+.faq-list {
+    width: 850px;
+    margin: auto;
+}
+  
+.faq-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    color: white;
+    
+}
+  
+.faq-question {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+  
+.faq-answer {
+    margin-top: 10px;
+    font-weight: normal;
+}
