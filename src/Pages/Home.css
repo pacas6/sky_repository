@@ -764,10 +764,10 @@
 .perguntas-frequentes-up-container{
 
     width: 100%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100px;
+    background-image: url(../assets/SkyStream-2.PNG);
+    background-position: center;
+    background-size: 350px;
 }
 
 

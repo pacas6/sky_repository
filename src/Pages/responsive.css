@@ -75,6 +75,12 @@
         
     }
 
+    .left-content-1 p{
+        color: white;
+        font-size: 12px;
+        width: 80%;
+    }
+
     .left-content-2{
         width: 100%;
         height: auto;
@@ -106,7 +112,7 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 35px;
+        gap: 30px;
         margin-top: 35px;
     }
 
@@ -151,13 +157,13 @@
     }
 
     .channels-logo-position{
-
+        
         height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 25px;
         padding-top: 40px;
     }
 
@@ -258,13 +264,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 20px;
+        gap: 15px;
     }
 
     .bubble-1{
 
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         border-radius: 30px;
         background: #736efe; background: -moz-linear-gradient(to right,  #736efe 0%,#5efce8 100%); background: -webkit-linear-gradient(to right,  #736efe 0%,#5efce8 100%); background: linear-gradient(to right,  #736efe 0%,#5efce8 100%);
         display: flex;
@@ -284,6 +290,87 @@
         align-self: center;
     
         
+    }
+
+    .topic-container{
+
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .topic-1{
+
+        width: 80%;
+        height: auto;
+        text-align: center;
+    
+    }
+    
+    .topic-1 h1{
+    
+        font-size: 60px;
+    }
+    
+    .topic-1 strong{
+    
+        font-size: 20px;
+    }
+    
+    .topic-1 p{
+    
+        font-size: 13px;
+    }
+    
+    .topic-2{
+    
+        width: 80%;
+        height: auto;
+        text-align: center;
+    
+    }
+    
+    
+    .topic-2 h1{
+    
+        font-size: 59px;
+    }
+    
+    .topic-2 strong{
+    
+        font-size: 20px;
+    }
+    
+    .topic-2 p{
+    
+        font-size: 13px;
+        margin-top: 40px;
+    }
+    
+    .topic-3{
+    
+        width: 80%;
+        height: auto;
+        text-align: center;
+    }
+    
+    
+    .topic-3 h1{
+    
+        font-size: 60px;
+    }
+    
+    .topic-3 strong{
+    
+        font-size: 20px;
+    }
+    
+    .topic-3 p{
+    
+        font-size: 13px;
+        margin-top: 35px;
     }
 
 }

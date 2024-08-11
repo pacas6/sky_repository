@@ -58,10 +58,7 @@ function Home() {
                             <h1>SkyStream: Eleva a tua <br />Experiencia de entretenimento</h1>
                         </div>
                         <div className="left-content-1">
-                            <p>Bem-vindo a SkyStream - o teu caminho ilimitado para o entretenimento. Com o <br />
-                                nosso serviço desfrute de canais de TV ao vivo, todos os jogos das principais ligas <br />
-                                de desporto e tenha uma experiencia de streaming incrivel. Eleve a sua jornada <br />
-                                de entretenimento com SkyStream hoje mesmo!
+                            <p>Bem-vindo à SkyStream! Desfrute de canais de TV em direto, jogos das principais ligas e uma experiência de streaming incrível. Eleve o seu entretenimento com SkyStream hoje!
                             </p>
                         </div>
                         <div className="left-content-2">
@@ -167,7 +164,7 @@ function Home() {
                                     <div className="benefits-box">
                                         <div className="benefits">
                                             <img src={check} alt="check" width={20} />
-                                            <p>Apenas canais<b>desportivos</b></p>
+                                            <p>Cobertura exclusiva de todas as ligas</p>
                                         </div>
                                     </div>
 
@@ -190,14 +187,14 @@ function Home() {
                                     <div className="benefits-box">
                                         <div className="benefits">
                                             <img src={check} alt="check" width={20} />
-                                            <p>Mais económico</p>
+                                            <p>Sem publicidade</p>
                                         </div>
                                     </div>
 
                                     <div className="benefits-box">
                                         <div className="benefits">
                                             <img src={check} alt="check" width={20} />
-                                            <p>1 conexão em simultâneo</p>
+                                            <p>Suporte 24/7</p>
                                         </div>
                                     </div>
                                     
@@ -231,14 +228,14 @@ function Home() {
                                     <div className="benefits-box">
                                         <div className="benefits">
                                             <img src={check} alt="check" width={20} />
-                                            <p><strong>+2 000 Canais ao vivo (Acesso a todos os canais televisos)</strong></p>
+                                            <p><strong>Acesso a 500+ canais em direto</strong></p>
                                         </div>
                                     </div>
 
                                     <div className="benefits-box">
                                         <div className="benefits">
                                             <img src={check} alt="check" width={20} />
-                                            <b>SD/HD/FHD/4K</b>
+                                            <b>Qualidade HD/4K</b>
                                         </div>
                                     </div>
 
@@ -246,21 +243,21 @@ function Home() {
                                     <div className="benefits-box">
                                         <div className="benefits">
                                             <img src={check} alt="check" width={20} />
-                                            <p><strong>+15 000 Filmes (Acesso a novos lançamentos)</strong></p>
+                                            <p><strong>8.000+ Filmes e Séries On-Demand</strong></p>
                                         </div>
                                     </div>
 
                                     <div className="benefits-box">
                                         <div className="benefits">
                                             <img src={check} alt="check" width={20} />
-                                            <p><strong>+4 000 Series (Acesso a novos lançamentos)</strong></p>
+                                            <p><strong>Actualizações Semanais</strong></p>
                                         </div>
                                     </div>
 
                                     <div className="benefits-box">
                                         <div className="benefits">
                                             <img src={check} alt="check" width={20} />
-                                            <p>1 conexão em simultâneo</p>
+                                            <p>Suporte 24/7</p>
                                         </div>
                                     </div>
 
@@ -296,7 +293,7 @@ function Home() {
                                     <div className="benefits-box">
                                         <div className="benefits">
                                             <img src={check} alt="check" width={20} />
-                                            <p>Apenas canais<b>desportivos</b></p>
+                                            <p>Cobertura exclusiva de todas as ligas</p>
                                         </div>
                                     </div>
 
@@ -319,14 +316,14 @@ function Home() {
                                     <div className="benefits-box">
                                         <div className="benefits">
                                             <img src={check} alt="check" width={20} />
-                                            <p>Mais económico</p>
+                                            <p>Sem publicidade</p>
                                         </div>
                                     </div>
 
                                     <div className="benefits-box">
                                         <div className="benefits">
                                             <img src={check} alt="check" width={20} />
-                                            <p>1 conexão em simultâneo</p>
+                                            <p>Suporte 24/7</p>
                                         </div>
                                     </div>
                                     
@@ -360,14 +357,14 @@ function Home() {
                                     <div className="benefits-box">
                                         <div className="benefits">
                                             <img src={check} alt="check" width={20} />
-                                            <p><strong>+2 000 Canais ao vivo (Acesso a todos os canais televisos)</strong></p>
+                                            <p><strong>Acesso a 500+ canais em direto</strong></p>
                                         </div>
                                     </div>
 
                                     <div className="benefits-box">
                                         <div className="benefits">
                                             <img src={check} alt="check" width={20} />
-                                            <b>SD/HD/FHD/4K</b>
+                                            <b>Qualidade HD/4K</b>
                                         </div>
                                     </div>
 
@@ -375,21 +372,21 @@ function Home() {
                                     <div className="benefits-box">
                                         <div className="benefits">
                                             <img src={check} alt="check" width={20} />
-                                            <p><strong>+15 000 Filmes (Acesso a novos lançamentos)</strong></p>
+                                            <p><strong>+8 000 Filmes e Seríes on demand</strong></p>
                                         </div>
                                     </div>
 
                                     <div className="benefits-box">
                                         <div className="benefits">
                                             <img src={check} alt="check" width={20} />
-                                            <p><strong>+4 000 Series (Acesso a novos lançamentos)</strong></p>
+                                            <p><strong>Actualizações semanais</strong></p>
                                         </div>
                                     </div>
 
                                     <div className="benefits-box">
                                         <div className="benefits">
                                             <img src={check} alt="check" width={20} />
-                                            <p>1 conexão em simultâneo</p>
+                                            <p>Suporte 24/7</p>
                                         </div>
                                     </div>
 
@@ -514,7 +511,7 @@ function Home() {
             <section className="perguntas-frequentes-container">
 
                 <div className="perguntas-frequentes-up-container">
-                    <img src={SkyLogo} alt="Sky Stream Logo" style={{ height: 400}} />
+                    
                 </div>
 
                 <div className="perguntas-frequentes-middle-container">
