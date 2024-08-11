@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/github.io/sky_repository/static/css/main.d905aa6f.css",
+    "main.js": "/github.io/sky_repository/static/js/main.e7d7c5f5.js",
+    "static/media/Design-2.png": "/github.io/sky_repository/static/media/Design-2.bfe0a0776739a098452f.png",
+    "static/media/vingadores.jpeg": "/github.io/sky_repository/static/media/vingadores.4569f0b6e8aad128d888.jpeg",
+    "static/media/beakeeper.jpg": "/github.io/sky_repository/static/media/beakeeper.bf4e92713e0246f48d89.jpg",
+    "static/media/debate.jpeg": "/github.io/sky_repository/static/media/debate.3e0bdda8d2a1a15863c2.jpeg",
+    "static/media/fa-solid-900.ttf": "/github.io/sky_repository/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/github.io/sky_repository/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/github.io/sky_repository/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/globo.png": "/github.io/sky_repository/static/media/globo.c55786dfc9fa3012583a.png",
+    "static/media/boys.jpeg": "/github.io/sky_repository/static/media/boys.422e6ceac78c836017b3.jpeg",
+    "static/media/disney.png": "/github.io/sky_repository/static/media/disney.f07ce8ece518e00816a1.png",
+    "static/media/fa-brands-400.woff2": "/github.io/sky_repository/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/SkyStream-2.PNG": "/github.io/sky_repository/static/media/SkyStream-2.b1ca9561bcdb14f15b81.PNG",
+    "static/media/avatar.jpeg": "/github.io/sky_repository/static/media/avatar.f36c69c0be4b31af14b8.jpeg",
+    "static/media/hbo.png": "/github.io/sky_repository/static/media/hbo.c0415cf664b1f5e10362.png",
+    "static/media/us.jpeg": "/github.io/sky_repository/static/media/us.fd531a2a19a294cd843a.jpeg",
+    "static/media/cnn.png": "/github.io/sky_repository/static/media/cnn.1b0f859c011a2af0f762.png",
+    "static/media/globoplayPoster.webp": "/github.io/sky_repository/static/media/globoplayPoster.97b1566e9239414562d4.webp",
+    "static/media/gun.jpeg": "/github.io/sky_repository/static/media/gun.0903db42568f902ffbe0.jpeg",
+    "static/media/fa-regular-400.ttf": "/github.io/sky_repository/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/eleven.png": "/github.io/sky_repository/static/media/eleven.43ec7d0727a4d0b0b760.png",
+    "static/media/sportv.png": "/github.io/sky_repository/static/media/sportv.f19f13ce4ee30511ea17.png",
+    "static/media/nba.png": "/github.io/sky_repository/static/media/nba.6067b2a31b15c09542b9.png",
+    "static/media/f1.png": "/github.io/sky_repository/static/media/f1.2cb0ebf2de2c240c2693.png",
+    "static/media/espn.png": "/github.io/sky_repository/static/media/espn.5965ad4acf95f1d228c2.png",
+    "static/media/fa-regular-400.woff2": "/github.io/sky_repository/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/prime.png": "/github.io/sky_repository/static/media/prime.d9818fab06a9e94ae367.png",
+    "static/media/pngwing.com.png": "/github.io/sky_repository/static/media/pngwing.com.f2a7cd7d5937ee50bcf8.png",
+    "static/media/sportvportugal.png": "/github.io/sky_repository/static/media/sportvportugal.d53e433144b68602c13f.png",
+    "static/media/fa-v4compatibility.ttf": "/github.io/sky_repository/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/github.io/sky_repository/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/github.io/sky_repository/index.html",
+    "main.d905aa6f.css.map": "/github.io/sky_repository/static/css/main.d905aa6f.css.map",
+    "main.e7d7c5f5.js.map": "/github.io/sky_repository/static/js/main.e7d7c5f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d905aa6f.css",
+    "static/js/main.e7d7c5f5.js"
+  ]
+}
