@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './Home.css'
+import './responsive.css'
 import SkyLogo from '../assets/SkyStream-2.PNG'
 import netflix from '../assets/pngwing.com.png'
 import disney from '../assets/disney.png'
@@ -20,10 +21,9 @@ import android from '../assets/icons/android.png'
 import ios from '../assets/icons/apple.png'
 import windows from '../assets/icons/windows.png'
 import check from '../assets/check.png'
-import eleven from '../assets/eleven.png'
-import sportvportugal from '../assets/sportvportugal.png'
 import FAQList from "../components/faqs/faqsList";
 import Footer from "../components/Footer/Footer";
+import hamburguer from "../assets/icons/hamburguer-branco.png"
 
 
 function Home() {
@@ -37,13 +37,19 @@ function Home() {
         <div className="app">
             <section className="Main">
                 <header className="header">
-                    <img src={SkyLogo} alt="Sky Stream Logo" style={{ height: "280px" }} />
+                    <div className="skyStreamLogo">
+                         
+                    </div>
+                    
                     <div className="links">
                         <p>Home</p>
                         <p>Planos</p>
                         <p>Duvidas</p>
                     </div>
                     <button className="free-trial">TESTE</button>
+                    <button className="button-menu">
+                        <img src={hamburguer} alt="hamburguer-branco" width={35} className="hamburguer"/>
+                    </button>
                 </header>
 
                 <section className="intro">
@@ -62,29 +68,34 @@ function Home() {
                             <button className="free-trial">
                                 TESTE GRATIS
                             </button>
+
+                            <button className="free-trial-2">
+                                TESTE GRATIS
+                            </button>
+
                             <div className="play-button">
-                                <img src={play} width={25} style={{ paddingLeft: 4 }} />
+                                <img src={play} width={25} style={{ paddingLeft: 4 }} alt="play"/>
                             </div>
                         </div>
                         <div className="platforms">
                             <div className="position-platforms">
-                                <img src={smartv} alt="icon1" width={60} />
+                                <img src={smartv} alt="icon1" />
                                 <p>Smart TV</p>
                             </div>
                             <div className="position-platforms">
-                                <img src={laptop} alt="icon1" width={60} />
+                                <img src={laptop} alt="icon1" />
                                 <p>Laptop/Pc</p>
                             </div>
                             <div className="position-platforms">
-                                <img src={android} alt="icon1" width={60} />
+                                <img src={android} alt="icon1"/>
                                 <p>Android</p>
                             </div>
                             <div className="position-platforms">
-                                <img src={ios} alt="icon1" width={60} />
+                                <img src={ios} alt="icon1" />
                                 <p>iOS/iPadOS</p>
                             </div>
                             <div className="position-platforms">
-                                <img src={windows} alt="icon1" width={50} />
+                                <img src={windows} alt="icon1" />
                                 <p>Windows</p>
                             </div>
                         </div>
@@ -97,20 +108,20 @@ function Home() {
             <section className="channels">
                 <div className="channels-logo">
                     <div className="channels-logo-position">
-                        <img src={netflix} width={120} className="logo"></img>
-                        <img src={hbo} width={150} className="logo"></img>
-                        <img src={prime} width={120} className="logo"></img>
-                        <img src={disney} width={110} className="logo"></img>
-                        <img src={apple} width={110} className="logo"></img>
-                        <img src={paramount} width={100} className="logo"></img>
-                        <img src={globo} width={130} className="logo"></img>
+                        <img src={netflix} width={120} className="logo" alt="streaming"></img>
+                        <img src={hbo} width={150} className="logo"alt="streaming"></img>
+                        <img src={prime} width={120} className="logo"alt="streaming"></img>
+                        <img src={disney} width={110} className="logo"alt="streaming"></img>
+                        <img src={apple} width={110} className="logo"alt="streaming"></img>
+                        <img src={paramount} width={100} className="logo"alt="streaming"></img>
                     </div>
                     <div className="channels-logo-position">
-                        <img src={espn} width={120} className="logo"></img>
-                        <img src={nba} width={70} className="logo"></img>
-                        <img src={f1} width={100} className="logo"></img>
-                        <img src={sportv} width={130} className="logo"></img>
-                        <img src={cnn} width={60} className="logo"></img>
+                        <img src={espn} width={120} className="logo" alt="streaming"></img>
+                        <img src={nba} width={70} className="logo" alt="streaming"></img>
+                        <img src={f1} width={100} className="logo" alt="streaming"></img>
+                        <img src={sportv} width={130} className="logo" alt="streaming"></img>
+                        <img src={cnn} width={60} className="logo" alt="streaming"></img>
+                        <img src={globo} width={130} className="logo"alt="streaming"></img>
                         
                     </div>
                 </div>
@@ -503,7 +514,7 @@ function Home() {
             <section className="perguntas-frequentes-container">
 
                 <div className="perguntas-frequentes-up-container">
-                    <img src={SkyLogo} alt="Sky Stream Logo" style={{ height: "400px" , marginTop:10}} />
+                    <img src={SkyLogo} alt="Sky Stream Logo" style={{ height: 400}} />
                 </div>
 
                 <div className="perguntas-frequentes-middle-container">
@@ -513,7 +524,7 @@ function Home() {
                             1
                         </div>
 
-                        <h1>O que é a SkyVision TV ?</h1>
+                        <h1>O que é a SkyVision TV ?(FAQ)</h1>
                     </div>
 
                     <p className="description">A SkyVision TV é um serviço de televisão por internet que oferece acesso a uma vasta seleção <br />
@@ -530,7 +541,7 @@ function Home() {
                             2
                         </div>
 
-                        <h1>Porque é a SkyVision TV é diferente ?</h1>
+                        <h1>A SkyVision TV é diferente ?</h1>
                     </div>
 
                     <p className="description">A SkyVision TV é diferente porque oferece um vasto conteudo de streaming desde as novelas <br />

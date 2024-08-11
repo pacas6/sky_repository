@@ -1,9 +1,18 @@
 .header{
     width: 100%;
-    height: 130px;
+    height: auto;
     align-items: center;
     justify-content: space-between;
     display: flex;
+}
+
+.skyStreamLogo{
+
+    width: 250px;
+    height: 180px;
+    background-image: url(../assets/SkyStream-2.PNG);
+    background-position: center;
+    background-size: 350px;
 }
 
 .links{
@@ -39,10 +48,30 @@
 
 }
 
+.free-trial-2{
+
+    width: 180px;
+    margin-right: 4%;
+    height: 45px;
+    border-radius: 20px;
+    border-style: none;
+    background: #736efe; background: -moz-linear-gradient(to right,  #736efe 0%,#5efce8 100%); background: -webkit-linear-gradient(to right,  #736efe 0%,#5efce8 100%); background: linear-gradient(to right,  #736efe 0%,#5efce8 100%);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    display: none;
+
+}
+
+.button-menu{
+
+    display: none;
+}
+
 .Main{
     
     width: 100%;
-    height: 700px;
+    height: auto;
     background: #000000; background: -moz-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: -webkit-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: linear-gradient(to right,  #000000 0%,#0a1852 100%);
     
 }
@@ -50,7 +79,7 @@
 .intro{
 
     width: 100%;
-    height: calc(77vh - 130px);
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,7 +89,7 @@
 .left-content-container{
 
     width: 55%;
-    height: calc(79vh - 130px);
+    height: auto;
 }
 
 .left-content{
@@ -163,6 +192,12 @@
     padding-left: 65px;
 }
 
+.position-platforms img{
+
+    width: 60px;
+    
+}
+
 .position-platforms p{
 
     color: white;
@@ -172,13 +207,13 @@
 
     background: #000000; background: -moz-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: -webkit-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: linear-gradient(to right,  #000000 0%,#0a1852 100%);
     width: 100%;
-    height: 850px;
+    height: auto;
 }
 
 .plans-intro{
 
     width: 100%;
-    height: 200px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,7 +331,7 @@
     margin-top: 20px;
     position: relative;
     overflow: hidden;
-    height: 480px;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -305,12 +340,14 @@
 
 .plan-content {
     
-    width: 1130px;
+    width: 100%;
     transition: transform 0.5s ease-in-out;
-    height: 470px;
+    height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .plan-content:nth-child(2) {
@@ -434,13 +471,14 @@
 .obs {
 
     width: 100%;
-    height: 10px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 11px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .obs-encurt{
@@ -637,9 +675,9 @@
 
 .topic-container{
 
+    height: auto;
     display: flex;
     justify-content: center;
-    
     flex-wrap: wrap;
     gap: 40px;
 }

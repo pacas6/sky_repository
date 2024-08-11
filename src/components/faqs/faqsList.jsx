@@ -3,6 +3,7 @@ import React from 'react';
 import FAQItem from './faqsItem.jsx';
 import { faqs } from '../faqs/faqs.js';
 import '../faqs/faqStyle.css'
+import '../../Pages/responsive.css'
 
 const FAQList = () => {
   return (
