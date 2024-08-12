@@ -423,6 +423,20 @@
         font-weight: bold;
     }
 
+    .see-more{
+
+        width: 180px;
+        margin-right: 4%;
+        height: 45px;
+        border-radius: 20px;
+        border-style: none;
+        background-color: white;
+        color: black;
+        font-size: 14px;
+        margin-top: 310px;
+        margin-left: 10px;
+    }
+
 }
 
 @media (min-width: 344px) and (max-width: 366px){
