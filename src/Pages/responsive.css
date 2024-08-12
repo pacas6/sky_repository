@@ -10,11 +10,11 @@
 
     .skyStreamLogo{
 
-        width: 200px;
+        width: 150px;
         height: 100px;
         background-image: url(../assets/SkyStream-2.PNG);
         background-position: center;
-        background-size: 350px;
+        background-size: 240px;
     }
 
 
@@ -135,7 +135,7 @@
 
     .right-content-container{
 
-        width: 375px;
+        width: 344px;
         height:  400px;
         background-image: url(../assets/Design-3.png);
         background-size: cover;
@@ -282,8 +282,8 @@
 
     .description{
 
-        margin: 20px 40px 70px 40px;
-        font-size: 13px;
+        margin: 60px 20px 60px 40px;
+        font-size: 12px;
         color: white;
         font-weight: 500;
         text-align: justify;
@@ -321,7 +321,8 @@
     
     .topic-1 p{
     
-        font-size: 13px;
+        font-size: 12px;
+        margin-top: 35px;
     }
     
     .topic-2{
@@ -345,8 +346,8 @@
     
     .topic-2 p{
     
-        font-size: 13px;
-        margin-top: 40px;
+        font-size: 12px;
+        margin-top: 35px;
     }
     
     .topic-3{
@@ -373,4 +374,61 @@
         margin-top: 35px;
     }
 
+    .full-screen-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #736efe; background: -moz-linear-gradient(to right,  #736efe 0%,#5efce8 100%); background: -webkit-linear-gradient(to right,  #736efe 0%,#5efce8 100%); background: linear-gradient(to right,  #736efe 0%,#5efce8 100%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+      
+    .full-screen-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+      
+    .full-screen-menu ul li {
+        margin: 20px 0;
+        font-size: 24px;
+        cursor: pointer;
+    }
+      
+    .close-menu {
+
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-top: 20px;
+        background: none;
+    }
+
+    #free-trial-mobile{
+
+        width: 140px;
+        height: 40px;
+        background: #000000; background: -moz-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: -webkit-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: linear-gradient(to right,  #000000 0%,#0a1852 100%);
+        border-width: 0;
+        border-radius: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+}
+
+@media (min-width: 344px) and (max-width: 366px){
+
+    .movies-series-intro h1{
+        margin-top: 50px;
+        font-size: 20px;
+    }
 }

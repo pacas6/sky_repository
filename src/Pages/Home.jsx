@@ -24,14 +24,38 @@ import check from '../assets/check.png'
 import FAQList from "../components/faqs/faqsList";
 import Footer from "../components/Footer/Footer";
 import hamburguer from "../assets/icons/hamburguer-branco.png"
+import close from '../assets/icons/close.png'
 
 
 function Home() {
     const [isAnual, setIsAnual] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
 
     const handleClick = (plan) => {
         setIsAnual(plan === 'anual');
     };
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
+    const scrollToSection = (name) => {
+        const element = document.getElementsByClassName(name)[0];
+        if(element){
+            element.scrollIntoView({behavior: "smooth"});
+            setMenuOpen(false);
+        }
+
+    }
+
+
+    const scrollToSectionId = (id) => {
+        const element = document.getElementById(id)
+        if(element){
+            element.scrollIntoView({behavior: "smooth"})
+            setMenuOpen(false);
+        }
+    }
 
     return (
         <div className="app">
@@ -42,15 +66,34 @@ function Home() {
                     </div>
                     
                     <div className="links">
-                        <p>Home</p>
-                        <p>Planos</p>
-                        <p>Duvidas</p>
+                        <p onClick={() => scrollToSection('intro')}>Home</p>
+                        <p onClick={() => scrollToSection('planos')}>Planos</p>
+                        <p onClick={() => scrollToSectionId('perguntas-frequentes-container')}>Duvidas</p>
+                        <p>Suporte 24/7</p>
                     </div>
                     <button className="free-trial">TESTE</button>
-                    <button className="button-menu">
+                    <button className="button-menu" onClick={toggleMenu}>
                         <img src={hamburguer} alt="hamburguer-branco" width={35} className="hamburguer"/>
                     </button>
                 </header>
+
+
+                {menuOpen && (
+                    <div className="full-screen-menu">
+                        <ul>
+                            <li onClick={() => scrollToSection('intro')}>Home</li>
+                            <li onClick={() => scrollToSection('planos')}>Planos</li>
+                            <li onClick={() => scrollToSectionId('perguntas-frequentes-container')}>Dúvidas</li>
+                            <li>Suporte 24/7</li>
+                            <li>
+                                <button id="free-trial-mobile">TESTE GRATIS</button>
+                            </li>
+                        </ul>
+                        <button className="close-menu" onClick={toggleMenu}>
+                            <img src={close} alt="close" width={50}/>
+                        </button>
+                    </div>
+                )}
 
                 <section className="intro">
                     <div className="left-content-container">
@@ -215,7 +258,7 @@ function Home() {
 
                             </div>
 
-                            <div className="boxes">
+                            <div className="boxes-popular">
                             <div className="Sky-stream-sports-box-up">
                                     <div className="sky-stream-intro">
                                         <h4>Sky Stream All-in-One / <strong>POUPE 10%</strong></h4>
@@ -350,7 +393,9 @@ function Home() {
                                         <h4>Sky Vision All-in-One</h4>
                                     </div>
                                     
+                                    
                                 </div>
+
 
                                 <div className="Sky-stream-sports-box-middle">
                                     
@@ -508,7 +553,7 @@ function Home() {
                     </div>
             </section>
 
-            <section className="perguntas-frequentes-container">
+            <section id="perguntas-frequentes-container">
 
                 <div className="perguntas-frequentes-up-container">
                     

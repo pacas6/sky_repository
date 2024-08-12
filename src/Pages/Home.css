@@ -362,6 +362,16 @@
     border-radius: 20px;
 }
 
+.boxes{
+
+    width: 550px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+
 .Sky-stream-sports-box-up{
 
     width: 100%;
@@ -754,7 +764,7 @@
     margin-top: 35px;
 }
 
-.perguntas-frequentes-container{
+#perguntas-frequentes-container{
 
     width: 100%;
     height: auto;
@@ -768,6 +778,7 @@
     background-image: url(../assets/SkyStream-2.PNG);
     background-position: center;
     background-size: 350px;
+    background-repeat: no-repeat;
 }
 
 

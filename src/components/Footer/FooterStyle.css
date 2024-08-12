@@ -2,7 +2,7 @@
 .footer {
     
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     font-family: Arial, sans-serif;
     background: #000000; background: -moz-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: -webkit-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: linear-gradient(to right,  #000000 0%,#0a1852 100%);
@@ -24,6 +24,7 @@
 .footer-logo p {
     max-width: 400px;
     font-size: 14px;
+    text-align: justify;
 }
   
 .footer-links {
@@ -68,4 +69,22 @@
     border-top: 1px solid #3a3f51;
     padding-top: 10px;
     font-size: 14px;
+}
+
+@media (min-width: 344px) And (max-width: 450px){
+
+    .footer {
+    
+        color: #fff;
+        padding: 40px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        background: #000000; background: -moz-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: -webkit-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: linear-gradient(to right,  #000000 0%,#0a1852 100%);
+    }
+
+    .footer-logo p {
+        max-width: 400px;
+        font-size: 14px;
+        text-align: center;
+    }
 }
