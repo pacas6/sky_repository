@@ -23,16 +23,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <div className="footer-logo">
-          <img src={SkyLogo} alt="Logo" width={58}/>
-          <p>
-            Na SkyVision TV, estamos dedicados a revolucionar a forma como você
-            experimenta o entretenimento. Com nosso serviço de TV de última
-            geração, trazemos para você um mundo de possibilidades de streaming, de canais
-            de TV ao vivo a conteúdo sob demanda, tudo entregue em HD deslumbrante,
-            FHD, 4K. Experimente o futuro do entretenimento com SkyVision TV.
-          </p>
-        </div>
+        
         <div className="footer-links">
           <h3>Sobre nós</h3>
           <ul>
@@ -41,10 +32,10 @@ function Footer() {
           </ul>
         </div>
         <div className="footer-links">
-          <h3>Ajuda e suporte</h3>
+          <h3>Suporte 24/7</h3>
           <ul>
             <li className='email-wrap'><a href="mailto:gowatchskystream@gmail.com">gowatchskystream@gmail.com</a></li>
-            <li>Suporte 24/7</li>
+            <li>Suporte Whatsapp</li>
           </ul>
         </div>
       </div>

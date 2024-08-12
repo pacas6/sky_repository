@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import './Home.css'
 import './responsive.css'
+import './responsiveTablets.css'
+import './responsiveWebScreens.css'
 import netflix from '../assets/pngwing.com.png'
 import disney from '../assets/disney.png'
 import hbo from '../assets/hbo.png'
@@ -582,12 +584,12 @@ function Home() {
                             2
                         </div>
 
-                        <h1>A SkyVision TV é diferente ?</h1>
+                        <h1>A SkyVision é diferente ?</h1>
                     </div>
 
                     <p className="description">A SkyVision TV é diferente porque oferece um vasto conteudo de streaming desde as novelas <br />
                     da GloboPlay até as series e filmes de plataformas como a netflix, HBO, Apple +, Paramount +,<br />
-                    Prime Video e Disney+. Não perca nenhum evento disportivo, partida ou competição.
+                    Prime Video e Disney+. Não perca nenhum evento desportivo, partida ou competição.
                     </p>
 
                 </div>

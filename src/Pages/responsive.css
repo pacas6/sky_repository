@@ -446,3 +446,442 @@
         font-size: 20px;
     }
 }
+
+@media (min-width: 451px) and (max-width:767px){
+
+    .button-menu{
+
+        display: block;
+        background: none;
+        border-width: 0;
+    }
+
+    .skyStreamLogo{
+
+        width: 150px;
+        height: 100px;
+        background-image: url(../assets/SkyStream-2.PNG);
+        background-position: center;
+        background-size: 240px;
+    }
+
+
+    .header .links, .free-trial{
+
+        display: none;
+    }
+
+    .header{
+
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    /*site intro face*/
+    .intro{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .left-content-container{
+
+        width: 100%;
+        height: auto;
+    }
+
+    .left-content{
+
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        text-align: center;
+    }
+
+    .left-content h1{
+        font-size: 30px;
+        color: white;
+        margin-top: 40px;
+        
+    }
+
+    .left-content-1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        
+    }
+
+    .left-content-1 p{
+        color: white;
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .left-content-2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        padding-left: 0;
+    }
+
+    .free-trial-2{
+
+        display: block;
+        width: 240px;
+        border-radius: 15px;
+        margin-top: 8px;
+    }
+
+    .play-button{
+        display: none;
+    }
+
+    .platforms{
+
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 35px;
+    }
+
+    .position-platforms{
+
+       padding: 0;
+    }
+
+    .position-platforms img{
+
+        width: 30px;
+        margin-left: 10px;
+    }
+
+    .position-platforms p{
+
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .right-content-container{
+
+        width: 344px;
+        height:  400px;
+        background-image: url(../assets/Design-3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .channels{
+
+        height: auto;
+    }
+
+    .channels-logo{
+
+        height: auto;
+        margin-top: 15px;
+    }
+
+    .channels-logo-position{
+        
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+        padding-top: 40px;
+    }
+
+    .channels-logo-position img{
+
+        width: 80px;
+        
+    }
+
+    .pick-the-plan{
+
+        width: 80%;
+    }
+
+    .pick-the-plan h1{
+
+        color: white;
+        font-size: 30px;
+    }
+    
+    .pick-the-plan p{
+    
+        color: white;
+        font-size: 15px;
+    }
+
+
+    .toggle{
+
+        width: 300px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, .15);
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .plan-button {
+        width: 145px;
+        height: 35px;
+        font-size: 13px;
+
+    }
+
+    .boxes{
+
+        width: 350px;
+        height: 400px;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .benefits b{
+
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    
+    .benefits p{
+
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .price-box-box h3{
+        font-size: 20px;
+    }
+    
+    .plan-button-2{
+
+        font-size: 11px;
+    }
+
+    .obs{
+
+        font-size: 9px;
+    }
+
+    .movies-series-intro h1{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .perguntas-frequentes-up-container{
+
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .perguntas-frequentes-middle-container-up{
+
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .bubble-1{
+
+        width: 40px;
+        height: 40px;
+        border-radius: 30px;
+        background: #736efe; background: -moz-linear-gradient(to right,  #736efe 0%,#5efce8 100%); background: -webkit-linear-gradient(to right,  #736efe 0%,#5efce8 100%); background: linear-gradient(to right,  #736efe 0%,#5efce8 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        margin-left: 0px;
+    }
+
+    .description{
+
+        margin: 60px 20px 60px 40px;
+        font-size: 12px;
+        color: white;
+        font-weight: 500;
+        text-align: justify;
+        align-self: center;
+    
+        
+    }
+
+    .topic-container{
+
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .topic-1{
+
+        width: 80%;
+        height: auto;
+        text-align: center;
+    
+    }
+    
+    .topic-1 h1{
+    
+        font-size: 60px;
+    }
+    
+    .topic-1 strong{
+    
+        font-size: 20px;
+    }
+    
+    .topic-1 p{
+    
+        font-size: 12px;
+        margin-top: 35px;
+    }
+    
+    .topic-2{
+    
+        width: 80%;
+        height: auto;
+        text-align: center;
+    
+    }
+    
+    
+    .topic-2 h1{
+    
+        font-size: 59px;
+    }
+    
+    .topic-2 strong{
+    
+        font-size: 20px;
+    }
+    
+    .topic-2 p{
+    
+        font-size: 12px;
+        margin-top: 35px;
+    }
+    
+    .topic-3{
+    
+        width: 80%;
+        height: auto;
+        text-align: center;
+    }
+    
+    
+    .topic-3 h1{
+    
+        font-size: 60px;
+    }
+    
+    .topic-3 strong{
+    
+        font-size: 20px;
+    }
+    
+    .topic-3 p{
+    
+        font-size: 13px;
+        margin-top: 35px;
+    }
+
+    .full-screen-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #736efe; background: -moz-linear-gradient(to right,  #736efe 0%,#5efce8 100%); background: -webkit-linear-gradient(to right,  #736efe 0%,#5efce8 100%); background: linear-gradient(to right,  #736efe 0%,#5efce8 100%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+      
+    .full-screen-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+      
+    .full-screen-menu ul li {
+        margin: 20px 0;
+        font-size: 24px;
+        cursor: pointer;
+    }
+      
+    .close-menu {
+
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-top: 20px;
+        background: none;
+    }
+
+    #free-trial-mobile{
+
+        width: 140px;
+        height: 40px;
+        background: #000000; background: -moz-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: -webkit-linear-gradient(to right,  #000000 0%,#0a1852 100%); background: linear-gradient(to right,  #000000 0%,#0a1852 100%);
+        border-width: 0;
+        border-radius: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .see-more{
+
+        width: 180px;
+        margin-right: 4%;
+        height: 45px;
+        border-radius: 20px;
+        border-style: none;
+        background-color: white;
+        color: black;
+        font-size: 14px;
+        margin-top: 310px;
+        margin-left: 10px;
+    }
+}
