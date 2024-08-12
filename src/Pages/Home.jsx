@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import './Home.css'
 import './responsive.css'
-import SkyLogo from '../assets/SkyStream-2.PNG'
 import netflix from '../assets/pngwing.com.png'
 import disney from '../assets/disney.png'
 import hbo from '../assets/hbo.png'
@@ -258,7 +257,7 @@ function Home() {
 
                             </div>
 
-                            <div className="boxes-popular">
+                            <div className="boxes">
                             <div className="Sky-stream-sports-box-up">
                                     <div className="sky-stream-intro">
                                         <h4>Sky Stream All-in-One / <strong>POUPE 10%</strong></h4>
