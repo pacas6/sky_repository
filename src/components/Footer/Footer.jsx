@@ -43,16 +43,16 @@ function Footer() {
         <div className="footer-links">
           <h3>Ajuda e suporte</h3>
           <ul>
-            <li className='email-wrap'><a href="#">gowatchskystream@gmail.com</a></li>
-            <li><a href="#">Suporte 24/7</a></li>
+            <li className='email-wrap'><a href="mailto:gowatchskystream@gmail.com">gowatchskystream@gmail.com</a></li>
+            <li>Suporte 24/7</li>
           </ul>
         </div>
       </div>
       <div className="footer-social">
         <a href="https://www.facebook.com/profile.php?id=61564364933643&mibextid=LQQJ4d" className="social-icon"><i className="fab fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/watchskyvision?igsh=N3A0eno2cjA2YjJi" className="social-icon"><i className="fab fa-instagram"></i></a>
-        <a href="#" className="social-icon"><i className="fab fa-x-twitter"></i></a>
-        <a href="#" className="social-icon"><i className="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/watchskyvision?igsh=N3A0eno2cjA2YjJi" className="social-icon"><i className="fab fa-x-twitter"></i></a>
+        <a href="https://pt.linkedin.com/in/wesley-st%C3%A9nio-pacavira-soares-augusto-70a923212" className="social-icon"><i className="fab fa-linkedin-in"></i></a>
       </div>
       <div className="footer-bottom">
         <p>© 2024 SkyVision TV. Todos os direitos reservados.</p>

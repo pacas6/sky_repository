@@ -1,6 +1,5 @@
 // src/components/FAQItem.js
 import React, { useState } from 'react';
-import globo from '../../assets/globo.png'
 import arrow from '../../assets/icons/arrow.png'
 
 const FAQItem = ({ question, answer }) => {
