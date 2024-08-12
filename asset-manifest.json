@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sky_repository/static/css/main.d8b00292.css",
-    "main.js": "/sky_repository/static/js/main.b900bdcc.js",
+    "main.css": "/sky_repository/static/css/main.383f7dcd.css",
+    "main.js": "/sky_repository/static/js/main.933abb64.js",
     "static/media/Design-3.png": "/sky_repository/static/media/Design-3.b271f4dfdd1e430e144b.png",
     "static/media/Design-2.png": "/sky_repository/static/media/Design-2.bfe0a0776739a098452f.png",
     "static/media/vingadores.jpeg": "/sky_repository/static/media/vingadores.4569f0b6e8aad128d888.jpeg",
@@ -32,11 +32,11 @@
     "static/media/fa-v4compatibility.ttf": "/sky_repository/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/sky_repository/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/sky_repository/index.html",
-    "main.d8b00292.css.map": "/sky_repository/static/css/main.d8b00292.css.map",
-    "main.b900bdcc.js.map": "/sky_repository/static/js/main.b900bdcc.js.map"
+    "main.383f7dcd.css.map": "/sky_repository/static/css/main.383f7dcd.css.map",
+    "main.933abb64.js.map": "/sky_repository/static/js/main.933abb64.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8b00292.css",
-    "static/js/main.b900bdcc.js"
+    "static/css/main.383f7dcd.css",
+    "static/js/main.933abb64.js"
   ]
 }
