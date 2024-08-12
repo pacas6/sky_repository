@@ -51,10 +51,10 @@
     .right-content-container{
 
         width: 70vh;
-        height:  400px;
+        height: calc(77vh - 130px);
         background-image: url(../assets/Design-2.png);
         background-size: cover;
-        background-position: initial;
+        background-position: left;
         background-repeat: no-repeat;
         
     }
