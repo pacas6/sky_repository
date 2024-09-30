@@ -2,4 +2,4 @@
 This repository is used to show the web site code:
 https://watchskyvision.com
 
-![Imgur](https://imgur.com/FV64tm3)
+![img](https://i.imgur.com/FV64tm3.jpeg)
